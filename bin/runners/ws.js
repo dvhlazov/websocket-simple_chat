@@ -1,7 +1,7 @@
 import { WebSocketServer } from 'ws';
 
 const run = async () => {
-  const server = new WebSocket('ws://64.226.116.153:8080');
+  const server = new WebSocketServer('ws://64.226.116.153:8080');
 
   
 
