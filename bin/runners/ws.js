@@ -1,7 +1,7 @@
 import { WebSocketServer } from 'ws';
 
 const run = async () => {
-  const server = new WebSocketServer({ port: 8080 });
+ const server = new WebSocketServer({ port: 8080 });
 
   
 
@@ -27,6 +27,6 @@ const run = async () => {
     });
   });
 
-  console.log('WebSocket server is running on ws://localhost:8080');
+  console.log('WebSocket server is running on ws://64.226.116.153:8080');
 };
 export default run;
